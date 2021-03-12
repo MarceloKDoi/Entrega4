@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import {
   View,
-  TextInput,
-  Button,
   StyleSheet,
-  Text,
   FlatList,
 } from "react-native";
 import LembreteInput from "./components/LembreteInput";
@@ -60,7 +57,7 @@ const styles = StyleSheet.create({
   },
   lembreteTextInput: {
     width: "80%",
-    borderBottomColor: "#CCC",
+    borderBottomColor: "#BBB",
     borderBottomWidth: 1,
     marginBottom: 4,
     padding: 4,
